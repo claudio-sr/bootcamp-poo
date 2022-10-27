@@ -10,12 +10,12 @@ public class Main {
 
         Mentoria mentoria = new Mentoria();
 
-        curso1.setTitulo("Java basic");
-        curso1.setDescricao("Curso basico de Java");
+        curso1.setTitle("Java basic");
+        curso1.setDescription("Curso basico de Java");
         curso1.setCargaHoraria(88);
 
-        mentoria.setTitulo("Java POO");
-        mentoria.setDescricao("Tudo de POO");
+        mentoria.setTitle("Java POO");
+        mentoria.setDescription("Tudo de POO");
         mentoria.setData(LocalDate.now());
 
         System.out.println(curso1);
